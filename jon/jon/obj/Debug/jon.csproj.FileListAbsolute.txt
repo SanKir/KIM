@@ -22,3 +22,12 @@ C:\Users\SSD-TOP\Desktop\jon\jon\obj\Debug\jon.pdb
 C:\Users\Kirill\Desktop\KIM\jon\jon\bin\Debug\jon.exe.config
 C:\Users\Kirill\Desktop\KIM\jon\jon\obj\Debug\jon.exe
 C:\Users\Kirill\Desktop\KIM\jon\jon\obj\Debug\jon.pdb
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\bin\Debug\jon.exe.config
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\bin\Debug\jon.exe
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\bin\Debug\jon.pdb
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\obj\Debug\jon.csprojResolveAssemblyReference.cache
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\obj\Debug\jon.Form1.resources
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\obj\Debug\jon.Properties.Resources.resources
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\obj\Debug\jon.csproj.GenerateResource.Cache
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\obj\Debug\jon.exe
+C:\Users\SSD-TOP\Documents\GitHub\KIM\jon\jon\obj\Debug\jon.pdb

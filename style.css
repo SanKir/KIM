@@ -1,0 +1,16 @@
+body
+{
+	margin:0;
+	padding:0;
+	background:url(image/fon1.jpg);
+}
+.ul1
+{
+	font-size:17pt;
+}
+.li1
+{
+	display:inline;
+	border:3px solid #000;
+	border-radius:50px;
+}
