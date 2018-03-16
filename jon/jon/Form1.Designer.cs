@@ -48,29 +48,30 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.Number1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Stanok11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Stanok22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Time1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Time2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -265,6 +266,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.checkBox2);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dataGridView2);
@@ -282,6 +284,81 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(591, 427);
             this.panel1.TabIndex = 12;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(7, 4);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(195, 23);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Ручное заполнение";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(115, 171);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 56);
+            this.label2.TabIndex = 12;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.SandyBrown;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Number1,
+            this.Stanok11,
+            this.Stanok22,
+            this.Time1,
+            this.Time2});
+            this.dataGridView2.Location = new System.Drawing.Point(225, 238);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(357, 178);
+            this.dataGridView2.TabIndex = 11;
+            // 
+            // Number1
+            // 
+            this.Number1.HeaderText = "№";
+            this.Number1.Name = "Number1";
+            this.Number1.Width = 30;
+            // 
+            // Stanok11
+            // 
+            this.Stanok11.HeaderText = "Первый станок";
+            this.Stanok11.Name = "Stanok11";
+            this.Stanok11.Width = 50;
+            // 
+            // Stanok22
+            // 
+            this.Stanok22.HeaderText = "Второй станок";
+            this.Stanok22.Name = "Stanok22";
+            this.Stanok22.Width = 50;
+            // 
+            // Time1
+            // 
+            this.Time1.HeaderText = "Промежуточное время 1 станка";
+            this.Time1.Name = "Time1";
+            this.Time1.Width = 90;
+            // 
+            // Time2
+            // 
+            this.Time2.HeaderText = "Промежуточное время 2 станка";
+            this.Time2.Name = "Time2";
+            this.Time2.Width = 90;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(538, 189);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(44, 43);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // textBox6
             // 
@@ -332,80 +409,15 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // pictureBox3
+            // checkBox2
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(538, 189);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 43);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.SandyBrown;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Number1,
-            this.Stanok11,
-            this.Stanok22,
-            this.Time1,
-            this.Time2});
-            this.dataGridView2.Location = new System.Drawing.Point(225, 238);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(357, 178);
-            this.dataGridView2.TabIndex = 11;
-            // 
-            // Number1
-            // 
-            this.Number1.HeaderText = "№";
-            this.Number1.Name = "Number1";
-            this.Number1.Width = 30;
-            // 
-            // Stanok11
-            // 
-            this.Stanok11.HeaderText = "Первый станок";
-            this.Stanok11.Name = "Stanok11";
-            this.Stanok11.Width = 50;
-            // 
-            // Stanok22
-            // 
-            this.Stanok22.HeaderText = "Второй станок";
-            this.Stanok22.Name = "Stanok22";
-            this.Stanok22.Width = 50;
-            // 
-            // Time1
-            // 
-            this.Time1.HeaderText = "Промежуточное время 1 станка";
-            this.Time1.Name = "Time1";
-            this.Time1.Width = 90;
-            // 
-            // Time2
-            // 
-            this.Time2.HeaderText = "Промежуточное время 2 станка";
-            this.Time2.Name = "Time2";
-            this.Time2.Width = 90;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(115, 171);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 56);
-            this.label2.TabIndex = 12;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(7, 4);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 23);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Ручное заполнение";
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(29, 189);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(80, 17);
+            this.checkBox2.TabIndex = 14;
+            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -429,10 +441,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -472,6 +484,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Time2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 

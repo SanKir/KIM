@@ -19,3 +19,6 @@ C:\Users\Kirill\Desktop\BackupJonson\jon\jon\obj\Debug\jon.csproj.GenerateResour
 C:\Users\SSD-TOP\Desktop\jon\jon\bin\Debug\jon.exe.config
 C:\Users\SSD-TOP\Desktop\jon\jon\obj\Debug\jon.exe
 C:\Users\SSD-TOP\Desktop\jon\jon\obj\Debug\jon.pdb
+C:\Users\Kirill\Desktop\KIM\jon\jon\bin\Debug\jon.exe.config
+C:\Users\Kirill\Desktop\KIM\jon\jon\obj\Debug\jon.exe
+C:\Users\Kirill\Desktop\KIM\jon\jon\obj\Debug\jon.pdb
