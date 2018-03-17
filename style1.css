@@ -172,7 +172,59 @@ color:white;
 	font-weight:600;
 	color:black;
 	font-size:18pt;
-	border:3px solid white;
+	border:5px solid white;
 	border-radius:50px;
 	
+}
+#menuAvtoriz:hover{
+	color:white;
+	background:#191970;
+	border:5px solid #191970;
+}
+/*******************************************Верстка для авторизации**************************************/
+.poleAuth {
+	width: 20%;
+	background-color: #fff;
+	float: left;
+	height: 60vh;
+}
+.contentAuth {
+	height:100%;
+	width: 60%;
+	background-color: white;
+	float: left;
+	
+}
+.sidebarAuth {
+	width: 20%;
+	background-color: white;
+	height: 60vh;
+	float: left;
+}
+.input2{ 
+position:relative;
+font-size:21pt;
+left:27%;	
+padding:10px;
+margin:10px;
+}
+#h1Auth{
+	position:relative;
+	left:35%;
+	margin:20px;
+}
+#button2
+{
+position:relative;
+font-size:21pt;
+left:39%;	
+padding:10px 58px 10px 58px;
+margin:10px;
+background:#1E90FF;
+color:white;
+	
+}
+#button2:hover{
+	color:white;
+	background:#191970;
 }
