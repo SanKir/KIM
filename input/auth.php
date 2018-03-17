@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../style1.css">
 	<meta charset="UTF-8">
-	<title>Main</title>
+	<title>Авторизация</title>
 </head>
 <body>
 	<div class="wrapper">
