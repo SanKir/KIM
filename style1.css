@@ -166,8 +166,6 @@ color:white;
 }
 /*******************************************Верстка для регистрации**************************************/
 #menuAvtoriz{
-<<<<<<< HEAD
-<<<<<<< HEAD
 	 background:white;
  	text-decoration:none;
  	font-weight:600;
@@ -175,24 +173,7 @@ color:white;
  	font-size:18pt;
  	border:3px solid white;
  	border-radius:50px;
-=======
-=======
->>>>>>> be67f6ab837fbaaf163d30bdce3749bf847c12a4
-	margin:10px;
-	background:white;
-	text-decoration:none;
-	font-weight:600;
-	color:black;
-	font-size:18pt;
-<<<<<<< HEAD
-	border:3px solid white;
-	border-radius:50px;
-	
->>>>>>> d08504c8a49b804086f8921ad1fabaa49eaf6d15
-=======
-	border:5px solid white;
-	border-radius:50px;
-	
+	margin:10px;	
 }
 #menuAvtoriz:hover{
 	color:white;
@@ -239,8 +220,7 @@ left:39%;
 padding:10px 58px 10px 58px;
 margin:10px;
 background:#1E90FF;
-color:white;
-	
+color:white;	
 }
 #button2:hover{
 	color:white;
