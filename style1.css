@@ -167,6 +167,7 @@ color:white;
 /*******************************************Верстка для регистрации**************************************/
 #menuAvtoriz{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	 background:white;
  	text-decoration:none;
  	font-weight:600;
@@ -175,14 +176,74 @@ color:white;
  	border:3px solid white;
  	border-radius:50px;
 =======
+=======
+>>>>>>> be67f6ab837fbaaf163d30bdce3749bf847c12a4
 	margin:10px;
 	background:white;
 	text-decoration:none;
 	font-weight:600;
 	color:black;
 	font-size:18pt;
+<<<<<<< HEAD
 	border:3px solid white;
 	border-radius:50px;
 	
 >>>>>>> d08504c8a49b804086f8921ad1fabaa49eaf6d15
+=======
+	border:5px solid white;
+	border-radius:50px;
+	
+}
+#menuAvtoriz:hover{
+	color:white;
+	background:#191970;
+	border:5px solid #191970;
+}
+/*******************************************Верстка для авторизации**************************************/
+.poleAuth {
+	width: 20%;
+	background-color: #fff;
+	float: left;
+	height: 60vh;
+}
+.contentAuth {
+	height:100%;
+	width: 60%;
+	background-color: white;
+	float: left;
+	
+}
+.sidebarAuth {
+	width: 20%;
+	background-color: white;
+	height: 60vh;
+	float: left;
+}
+.input2{ 
+position:relative;
+font-size:21pt;
+left:27%;	
+padding:10px;
+margin:10px;
+}
+#h1Auth{
+	position:relative;
+	left:35%;
+	margin:20px;
+}
+#button2
+{
+position:relative;
+font-size:21pt;
+left:39%;	
+padding:10px 58px 10px 58px;
+margin:10px;
+background:#1E90FF;
+color:white;
+	
+}
+#button2:hover{
+	color:white;
+	background:#191970;
+>>>>>>> be67f6ab837fbaaf163d30bdce3749bf847c12a4
 }
