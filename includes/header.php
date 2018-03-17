@@ -7,8 +7,8 @@
 		}
 		else 
 		{
-			echo '<a href="#" id="menuAvtoriz">Авторизация</a>
-				  <a href="registr/registration.php" id="menuAvtoriz">Регистрация</a>';
+			echo '<a href="/input/auth.php" id="menuAvtoriz">Авторизация</a>
+				  <a href="/input/registration.php" id="menuAvtoriz">Регистрация</a>';
 		}
 	}
 ?>
