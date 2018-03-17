@@ -3,12 +3,12 @@
 	{
 		if($_SESSION['logged_user'])
 		{
-			echo '<a href="#">Личный кабинет</a>';
+			echo '<a href="#" id="menuAvtoriz">Личный кабинет</a>';
 		}
 		else 
 		{
-			echo '<a href="#">Авторизация</a>
-				  <a href="#">Регистрация</a>';
+			echo '<a href="#" id="menuAvtoriz">Авторизация</a>
+				  <a href="registr/registration.php" id="menuAvtoriz">Регистрация</a>';
 		}
 	}
 ?>
