@@ -166,6 +166,7 @@ color:white;
 }
 /*******************************************Верстка для регистрации**************************************/
 #menuAvtoriz{
+<<<<<<< HEAD
 	 background:white;
  	text-decoration:none;
  	font-weight:600;
@@ -173,4 +174,15 @@ color:white;
  	font-size:18pt;
  	border:3px solid white;
  	border-radius:50px;
+=======
+	margin:10px;
+	background:white;
+	text-decoration:none;
+	font-weight:600;
+	color:black;
+	font-size:18pt;
+	border:3px solid white;
+	border-radius:50px;
+	
+>>>>>>> d08504c8a49b804086f8921ad1fabaa49eaf6d15
 }
