@@ -37,14 +37,14 @@
 	height: 230px;
 }
 #logo3 {
-	width: 350px;
-	height: 230px;
+	width: 300px;
+	height: 210px;
 	display: block;
 	margin: auto;
 }
 #logo3:hover {
-	width: 300px;
-	height: 210px;
+	width: 350px;
+	height: 230px;
 }
 .input {
 	background-color: #4169E1;
@@ -166,12 +166,30 @@ color:white;
 }
 /*******************************************Верстка для регистрации**************************************/
 #menuAvtoriz{
+<<<<<<< HEAD
+<<<<<<< HEAD
+	 background:white;
+ 	text-decoration:none;
+ 	font-weight:600;
+ 	color:black;
+ 	font-size:18pt;
+ 	border:3px solid white;
+ 	border-radius:50px;
+=======
+=======
+>>>>>>> be67f6ab837fbaaf163d30bdce3749bf847c12a4
 	margin:10px;
 	background:white;
 	text-decoration:none;
 	font-weight:600;
 	color:black;
 	font-size:18pt;
+<<<<<<< HEAD
+	border:3px solid white;
+	border-radius:50px;
+	
+>>>>>>> d08504c8a49b804086f8921ad1fabaa49eaf6d15
+=======
 	border:5px solid white;
 	border-radius:50px;
 	
