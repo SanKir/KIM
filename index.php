@@ -14,21 +14,50 @@
 		<div class="main_content clearfix">
 			<div class="content">
 				<table id="table1">
+					
 					<tr class="table1">
-						<th class="table1">№</th>
-						<th class="table1">Наименование</th>
-						<th class="table1">Кол-во ответов</th>
-						<th class="table1">Дата создания</th>
-						<th class="table1">Действие</th>
+						<th class="th3"><img src="image/sms.png"></th>
+						<th class="th3">Наименование</th>
+						<th class="th3">Сообщения</th>
+						<th class="th3">Дата создания</th>
+						<th class="th3">Действие</th>
 					</tr>
-					<tr >
-						<th class="th1">1</th>
+					
+					<tr class="table1">
+						<th class="th1"><img src="image/sms.png"></th>
 						<th class="th1">Лабараторная работа №**</th>
 						<th class="th1">125</th>
 						<th class="th1">12.05.2018</th>
 						<th class="th1">Просмотреть</th>
 					</tr>
+									<tr class="table1">
+						<th class="th2"><img src="image/sms.png"></th>
+						<th class="th2">Лабараторная работа №**</th>
+						<th class="th2">125</th>
+						<th class="th2">12.05.2018</th>
+						<th class="th2">Просмотреть</th>
+					</tr>
+									<tr class="table1">
+						<th class="th2"><img src="image/sms.png"></th>
+						<th class="th2">Лабараторная работа №**</th>
+						<th class="th2">125</th>
+						<th class="th2">12.05.2018</th>
+						<th class="th2">Просмотреть</th>
+					</tr>
 
+				</table>
+				<table>
+				<tr>
+				<td valign="top">Images</td>
+				</tr>
+				<tr>
+				<td>HTML</td>
+				<td>Messadger</td>
+				</tr>
+				<tr>
+				<td>OPISANIE</td>
+				</tr>
+				
 				</table>
 			
 			</div>
