@@ -1,10 +1,12 @@
-
+<?php 
+	include "/includes/connection.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="style1.css">
 	<meta charset="UTF-8">
-	<title>Main</title>
+	<title>Форум IT-спецов RussianPIE</title>
 </head>
 <body>
 	<div class="wrapper">
@@ -46,25 +48,11 @@
 					</tr>
 
 				</table>
-				<table>
-				<tr>
-				<td valign="top">Images</td>
-				</tr>
-				<tr>
-				<td>HTML</td>
-				<td>Messadger</td>
-				</tr>
-				<tr>
-				<td>OPISANIE</td>
-				</tr>
 				
-				</table>
 			
 			</div>
 			<div class="sidebar"><h1>Sidebar</h1></div>
 		</div>
-		<div class="footer">
-			<h1>Footer</h1></div>
-	</div>
+<?php include "/includes/footer.php"; ?>	
 </body>
 </html>

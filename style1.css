@@ -9,10 +9,43 @@
 /**************************************HEADER************************************/
 .header {
 	width: 100%;
-	height: 30vh;
+	height: 250px;
 	background:linear-gradient(to bottom,#4169E1,white);
 	/*background: url(image/fon2.jpg);
 	*/position: relative;
+}
+.input {
+	width: 100%;
+	background-color: #4169E1;
+	height:30px;
+}
+.menuAvtoriz{
+ 	text-decoration:none;
+	margin:10px;
+	color: #FFFFFF;
+	font: normal 1.3em Impact;
+}
+.menuAvtoriz:hover{
+	color:white;
+	background:#191970;
+	border:5px solid #191970;
+}
+.form_auth {
+	float: left;
+}
+.form_auth img {
+	width: 30px;
+	margin-left: 10px;
+	float: left;
+}
+.form_auth pre {
+	margin-left: 50px;
+	color: #FFFFFF;
+	font: normal 1.3em Impact;
+	line-height: 30px;
+}
+.form_input {
+	float: right;
 }
 #logo {
 	width: 600px;
@@ -30,11 +63,11 @@
 }
 #logo:hover {
 	width: 630px;
-	height: 230px;
+	height: 210px;
 }
 #logo2:hover {
 	width: 630px;
-	height: 230px;
+	height: 210px;
 }
 #logo3 {
 	width: 300px;
@@ -46,15 +79,30 @@
 	width: 350px;
 	height: 230px;
 }
-.input {
-	background-color: #4169E1;
-	height:30px;
+.menu {
+	background-color: #FEFEFE;
+	border-bottom: 1px solid #D5D4D4;
+}
+ul.top_menu li {
+	display: inline-block;
+	width: 200px;
+}
+ul.top_menu li a {
+	text-decoration: none;
+	font: normal 1.3em Impact;
+	display: block;
+	text-align: center;
+	color: #3FABF6;
+}
+ul.top_menu li a:hover {
+	color:white;
+	background:#191970;
 }
 /************************************************/
 .footer {
 	width: 100%;
 	height: 10vh;
-	background:url(image/fon2.jpg);
+	background:linear-gradient(to bottom,white,#4169E1);
 }
 .clearfix:after {
 	content: "";
@@ -67,13 +115,13 @@
 }
 .content {
 	width: 60%;
-	background-color: #AAC2E2;
+	background-color: white;
 	float: left;
 	height: 60vh;
 }
 .sidebar {
 	width: 40%;
-	background-color: #E6D3D3;
+	background-color: white;
 	height: 60vh;
 	float: left;
 }
@@ -132,113 +180,38 @@
 	}
 }
 /*******************************************Верстка для регистрации**************************************/
-.poleReg {
-	width: 20%;
-	background-color: #fff;
-	float: left;
-	height: 60vh;
-}
 .contentReg {
 	height:100%;
-	width: 60%;
+	width: 100%;
 	background-color: white;
-	float: left;
-	
+	text-align: center;
 }
-.sidebarReg {
-	width: 20%;
-	background-color: white;
-	height: 60vh;
-	float: left;
-}
-.input1{ 
-position:relative;
-font-size:21pt;
-left:25%;	
+.input1 { 
+font-size:21pt;	
 padding:10px;
-margin:10px;
+margin-top:10px;
 }
 /*кнопка регистрации*/
-#button1
+.button1
 {
-position:relative;
 font-size:21pt;
-left:30%;	
+margin-top: 10px;	
 padding:10px 58px 10px 58px;
-margin:10px;
 background:#1E90FF;
 color:white;
-	
 }
-#button1:hover{
+.button1:hover{
 	color:white;
 	background:#191970;
 }
 /*Конец кнопки*/
-#h1Reg{
-	margin:20px;
-	position:relative;
-	left:18%;
-}
-/*******************************************Верстка для регистрации**************************************/
-#menuAvtoriz{
-	 background:white;
- 	text-decoration:none;
- 	font-weight:600;
- 	color:black;
- 	font-size:18pt;
- 	border:3px solid white;
- 	border-radius:50px;
-	margin:10px;	
-}
-#menuAvtoriz:hover{
-	color:white;
-	background:#191970;
-	border:5px solid #191970;
+#h1Reg, #h1Auth{
+	margin: 10px 0 10px 0;
 }
 /*******************************************Верстка для авторизации**************************************/
-.poleAuth {
-	width: 20%;
-	background-color: #fff;
-	float: left;
-	height: 60vh;
-}
 .contentAuth {
 	height:100%;
-	width: 60%;
+	width: 100%;
 	background-color: white;
-	float: left;
-	
-}
-.sidebarAuth {
-	width: 20%;
-	background-color: white;
-	height: 60vh;
-	float: left;
-}
-.input2{ 
-position:relative;
-font-size:21pt;
-left:27%;	
-padding:10px;
-margin:10px;
-}
-#h1Auth{
-	position:relative;
-	left:35%;
-	margin:20px;
-}
-#button2
-{
-position:relative;
-font-size:21pt;
-left:39%;	
-padding:10px 58px 10px 58px;
-margin:10px;
-background:#1E90FF;
-color:white;	
-}
-#button2:hover{
-	color:white;
-	background:#191970;
+	text-align: center;
 }
