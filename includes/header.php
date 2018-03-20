@@ -4,7 +4,8 @@
 		if(isset($_SESSION['logged_user']))
 		{
 			echo '<div class="form_auth"><img src="/image/useracc.png"><pre>'.$_SESSION['logged_user']['firstname'].' '.$_SESSION['logged_user']['lastname'].'</pre></div>
-				  <div class="form_input"><a href="/myprofile.php" class="menuAvtoriz">Личный кабинет</a></div>';
+				  <div class="form_input"><a href="/myprofile.php" class="menuAvtoriz">Личный кабинет</a>
+				  <a href="/logout.php" class="menuAvtoriz">Выход</a></div>';
 		}
 		else 
 		{
