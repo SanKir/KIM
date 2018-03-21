@@ -215,3 +215,272 @@ color:white;
 	background-color: white;
 	text-align: center;
 }
+/*******************************************-Верстка для моего профиля-**************************************/
+.content54{
+	height:200px;
+	width: 20%;
+	
+	background-color: white;
+	text-align: center;
+}
+.content55{
+	position:relative;
+	height:200px;
+	width: 30%;
+	left:20%;
+top:-200px;	
+	background-color: white;
+	text-align: center;
+	
+}
+.content56{
+	position:relative;
+	height:200px;
+	width: 50%;
+	left:49.9%;
+top:-400px;	
+	background-color: white;
+	text-align: center;
+	
+}
+.button56
+{
+	width:250px;
+font-size:16pt;
+margin-top: 7px;	
+padding:10px 50px 10px 50px;
+text-align:left;
+background:white;
+color:black;
+border:3px solid white;
+
+
+}
+.button56:hover{
+	color:white;
+	background:#191970;
+}
+.foto
+{
+	position:relative;
+	top:15px;
+	height:350px;
+	width:250px;
+}
+.button60
+{
+	width:305.5px;
+font-size:16pt;
+margin-top: 7px;	
+padding:10px 25px 10px 25px;
+background:white;
+color:black;
+border:3px solid white;
+
+}
+.button60:hover{
+	color:white;
+	background:#191970;
+}
+#FIO
+{
+	position:relative;
+	top:10px;
+	font-weight:600;
+	font-size:20pt;
+	text-align:left;
+}
+#Group
+{
+	position:relative;
+	top:10px;
+	font-weight:600;
+	font-size:15pt;
+	text-align:left;
+}
+#programs
+{
+	position:relative;
+	top:10px;
+	font-weight:600;
+	font-size:15pt;
+	text-align:left;
+}
+#text
+{
+	
+	position:relative;
+	top:20px;
+	left:0px;
+	height:60px;
+	width:550px;
+	font-weight:600;
+	font-size:15pt;
+	text-align:left;
+
+}
+#button101
+{
+	
+	position:relative;
+	top:19px;
+	left:0px;
+	height:65px;
+	width:102px;
+	font-weight:600;
+	font-size:15pt;
+	text-align:left;
+	background:white;
+	border:3px solid white;
+
+}
+#button101:hover{
+	color:white;
+	background:#191970;
+}
+#pic{
+
+	
+	position:relative;
+	top:20px;
+	left:0px;
+	height:60px;
+	width:652px;
+	font-weight:600;
+	font-size:15pt;
+	text-align:left;
+
+}
+#fotoP{
+	position:relative;
+	top:20px;
+	height:75px;
+	width:60px;
+	left:-300px;
+}
+#zapic{
+	position:relative;
+	top:-50px;
+	font-size:15pt;
+}
+#zapic2{
+	position:relative;
+	left:-150px;
+	top:-20px;
+	font-size:15pt;
+}
+#Flike{
+	position:relative;
+	top:-20px;
+	left:300px;
+	width:25px;
+	height:25px;
+}
+/*******************************************-Верстка для мои сообщения-**************************************/
+.messenger{
+	float:center;
+	height:40px;
+	width:70%;
+	margin:-189px 0px 0 15%;
+	background:#4169E1;
+}
+.textMess{
+	float:center;
+	min-height:200px;
+	height:100%;
+	width:70%;
+	margin:0px 0px 0px 15%;
+	border:3px solid white;
+}
+#text2Mess{
+	
+	height:75px;
+	width:40%;
+	margin:5px 0px 0px 15%;
+}
+
+#fotoMess{
+	
+	height:45px;
+	width:60px;
+	margin:5px 0px 0 15%;
+}
+.poleMess{
+	background:#B0E0E6;
+	width:70%;
+	height:100%;
+	margin:0px 0px 0px 15%;
+	float:center;
+}
+.pole2Mess{
+	float:center;
+	
+}
+.buttonMess
+{
+	float:left;
+	width:200px;
+font-size:16pt;
+margin-top: 7px;	
+padding:10px 0px 10px 10px;
+text-align:left;
+background:white;
+color:black;
+border:3px solid white;
+
+
+}
+.buttonMess:hover{
+	color:white;
+	background:#191970;
+}
+#text3Mess
+{
+	height:37.5px;
+	width:30%;
+	margin:-50px 0px 0px 0;
+}
+#button2Mess{
+	
+	height:37.5px;
+	width:30%;
+	margin:-200px 0px 20px 56%;
+	background:white;
+	border:3px solid white;
+}
+#button2Mess:hover{
+	background:#191970;
+	color:white;
+	border:3px solid white;
+}
+.divSpisok{
+	width:15%;
+	min-height:200px;
+	height:100%;
+	background:#B0E0E6;
+	margin:0px 0 0 0;
+}
+#button3Mess{
+	width:95%;
+	height:35px;
+	margin:3px;
+	padding:5px;
+	background:white;
+	border:0px solid white;
+}
+#button3Mess:hover{
+	background:#191970;
+	color:white;
+}
+.preMess{
+	padding:10px 10px 7px 5px;
+	font-size:12pt;
+	font-weight:600;
+}
+.divText{
+	width:100%;
+	min-height:200px;
+	height:100%;
+	background:#B0E0E6;
+	margin:-161px 0 0 0;
+}
