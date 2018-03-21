@@ -12,7 +12,7 @@
 <body>
 	<div class="wrapper">
 		<?php include "/includes/header.php"; ?>
-		<div class="content54">
+		<div class="content5555">
 		<a href="myprofile.php"><input type="submit" value="Моя страница" class="buttonMess"></a> <Br>
 		<input type="submit" value="Новости" class="buttonMess"><Br>
 		<input type="submit" value="Мои фотографии" class="buttonMess"><Br>
@@ -25,7 +25,7 @@
 		<div class="divSpisok">
 		<pre class="preMess">Частые диалоги</pre>
 		<input type="submit"  value="Кирилл Саньков" id="button3Mess"></input>
-		<input type="submit"  value="Бутов Иван" id="button3Mess"></input>
+		<input type="submit"  value="Бутов Иван" id="button3Mess" ></input>
 		<input type="submit"  value="Дудин Никита" id="button3Mess"></input>
 		<input type="submit"  value="Мамонт" id="button3Mess"></input>
 		</div>
