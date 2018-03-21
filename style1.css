@@ -440,14 +440,7 @@ border:3px solid white;
 	width:30%;
 	margin:-50px 0px 0px 0;
 }
-#button2Mess{
-	
-	height:37.5px;
-	width:30%;
-	margin:-200px 0px 20px 56%;
-	background:white;
-	border:3px solid white;
-}
+
 #button2Mess:hover{
 	background:#191970;
 	color:white;
@@ -482,5 +475,25 @@ border:3px solid white;
 	min-height:200px;
 	height:100%;
 	background:#B0E0E6;
-	margin:-161px 0 0 0;
+	margin:-200px 0 0 0;
+}
+.textArea{
+	
+	height:37.5px;
+	width:99.5%;
+	margin:-70px 0px 0px 55.5%;
+}
+#button2Mess{
+	
+	height:32px;
+	width:30%;
+	margin:-5px 0px 20px 55.7%;
+	background:white;
+	border:3px solid white;
+}
+#but2Mess{
+	background:white;
+	border:3px solid white;
+	margin: -10px 0px 0 56%;
+	
 }

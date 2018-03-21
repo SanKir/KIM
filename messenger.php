@@ -32,8 +32,8 @@
 		<div class="divText"><input type="text"  class="textMess" readonly></div>
 		<div class="pole2Mess">
 		<textarea type="text" placeholder="Введите сообщение" id="text2Mess"></textarea>
-		<input type="text"  placeholder="Адрес получателя" id="text3Mess"></input>
-		<input type="submit"  value="Отправить" id="button2Mess"></input>
+		<div class="textArea"><input type="text"  placeholder="Адрес получателя" id="text3Mess"></input></div>
+		<div class="butMess"><input type="submit"  value="Отправить" id="button2Mess"></input></div>
 		</div>
 		</div>
 		
